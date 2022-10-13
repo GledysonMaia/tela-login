@@ -14,6 +14,8 @@ Grandes telas: acima de 1200px
 
     section#tellog {
         width: 80vw;
+        font-size: 1.2em;
+        text-align: justify;
     }
 
     section#tellog > div#img {
@@ -36,17 +38,19 @@ Grandes telas: acima de 1200px
     }
     
     section#tellog {
-        width: 992px
+        width: 992px;
+        font-size: 1.3em;
+        text-align: justify;
     }
 
     section#tellog > div#img {
-        float: left;
+        float: right;
         width: 43%;
         height: 100%;
     }
 
     section#tellog > div#form {
-        float: right;
+        float: left;
         width: 56%;
     }
 }
