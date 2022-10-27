@@ -21,7 +21,7 @@ body, html {
 section#tellog {
     background-color: white;
     width: 250px;
-    height: 600px;
+    height: 520px;
     border-radius: 15px;
     position: absolute;
     top: 50%;
@@ -67,6 +67,10 @@ div#form > p {
 
 i.material-icons {
     box-sizing: border-box;
+    color: rgb(247, 247, 247);
+    font-size: 1.3em;
+    width: 32px;
+    padding: 5px;
 }
 
 div#form input[type=submit] {
@@ -82,7 +86,23 @@ div#form input[type=submit] {
 form > div.campo {
     background-color: #5f2c82;
     width: 100%;
-    height: 30px;
+    height: 40px;
+}
+
+div.campo > input {
+    overflow: hidden;
+    background-color: #52b1ae;
+    font-size: 1.1em;
+    width: calc(100% - 38px);
+    height: 42px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    transform: translate(2px);
+}
+
+div.campo > input:focus-within {
+    background-color: white;
 }
 
 div.campo > label {
@@ -90,7 +110,9 @@ div.campo > label {
 }
 
 form > div.campo#ponta1 {
-    border-radius: 7px 7px 0px 0px;
+    border-radius: 6px 6px 0px 0px;
+    height: 42px;
+    margin-top: -1px;
 }
 
 div#form input[type=submit]:hover {
